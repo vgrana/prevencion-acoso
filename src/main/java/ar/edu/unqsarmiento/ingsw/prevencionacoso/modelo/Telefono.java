@@ -1,7 +1,13 @@
 package ar.edu.unqsarmiento.ingsw.prevencionacoso.modelo;
 
-public class Telefono {
+import javax.persistence.Entity;
+
+import org.hibernate.annotations.Type;
+
+@Entity
+public class Telefono extends Persistible {
 	private String nombre;
+	@Type(type="text")
 	private String descripcion;
 	private String numero;
 	
