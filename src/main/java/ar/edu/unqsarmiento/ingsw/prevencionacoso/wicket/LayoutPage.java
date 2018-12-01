@@ -7,6 +7,7 @@ import org.apache.wicket.markup.html.link.Link;
 public abstract class LayoutPage extends WebPage {
 	public LayoutPage() {
 		this.agregarLink("homePage", HomePage.class);
+		this.agregarLink("informacionPage", InformacionPage.class);
 	}
 	
 	private void agregarLink(String nombre, Class<? extends Page> pageClass) {
