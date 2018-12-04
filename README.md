@@ -97,12 +97,12 @@ Para crear una base de datos, abra una terminal  ctrl+alt+t
 ## Importar el proyecto en Eclipse:
 - Abra Eclipse vaya a File
 - Elija la opción Import Projects from files System or Archive
-- En la ventana que se despliega vaya al botón Directory y ahí eleja la ruta en donde se encuentra el proyecto que desea importar.
+- En la ventana que se despliega vaya al botón Directory y ahí elija la ruta en donde se encuentra el proyecto que desea importar.
 - Por último haga clic en el botón Finish 
 
 
-###Pasos para levantar el proyecto con Jetty desde desde consola:
+### Pasos para levantar el proyecto con Jetty desde desde consola:
 
-- Abra una terminal en la ubicacion de su proyecto,luego ejecute el comando `mvn jetty:run`.
+- Abra una terminal en la ubicación de su proyecto,luego ejecute el comando `mvn jetty:run`.
 
 - Por último, independientemente de la opción que elija, abra un navegador y escriba `localhost:8080`.
