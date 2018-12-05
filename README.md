@@ -48,6 +48,7 @@ Siga los siguientes pasos para instalar Java OpenJDK en ubuntu:
 	```
 	mvn -version 
 	```
+	
 ## Instalar Mysql:
 - Actualice  el índice de paquetes:
 	```
@@ -76,7 +77,8 @@ Para crear una base de datos, abra una terminal  ctrl+alt+t
 	```
 	create database prevencionAcoso
 	```
-###Cargar datos iniciales a la base de datos:
+	
+## Cargar datos iniciales a la base de datos:
 - Primero debe abrir la base de datos que ha creado, para ello ejecuta el comando:
 	 ```
 	  use prevencionAcoso;
@@ -87,7 +89,7 @@ Para crear una base de datos, abra una terminal  ctrl+alt+t
 	```
 	show tables;
 	```
-	si quiere visualizar los datos contenidos de las mismas 
+	si quiere visualizar los datos contenidos en las mismas 
 	```
 	select * from nombreTabla;
 	```
@@ -95,14 +97,23 @@ Para crear una base de datos, abra una terminal  ctrl+alt+t
 
 
 ## Importar el proyecto en Eclipse:
+
+- Lo primero que debe hacer es descargar git, para ello ejecute el siguiente comando:
+
+```
+sudo apt-get install git
+```
+- Una vez instalado, clone el repositorio que se encuentra en el siguiente [link] (https://github.com/vgrana/prevencion-acoso-callejero)
+
 - Abra Eclipse vaya a File
 - Elija la opción Import Projects from files System or Archive
-- En la ventana que se despliega vaya al botón Directory y ahí elija la ruta en donde se encuentra el proyecto que desea importar.
-- Por último haga clic en el botón Finish 
 
+- En la ventana que se despliega vaya al botón Directory y ahí elija la ruta en donde se encuentra el proyecto que desea importar.
+
+- Por último haga clic en el botón Finish 
 
 ### Pasos para levantar el proyecto con Jetty desde desde consola:
 
 - Abra una terminal en la ubicación de su proyecto,luego ejecute el comando `mvn jetty:run`.
 
-- Por último, independientemente de la opción que elija, abra un navegador y escriba `localhost:8080`.
+- Luego, abra un navegador y escriba `localhost:8080`.
