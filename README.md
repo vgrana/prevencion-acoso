@@ -1,6 +1,6 @@
 > Incluir aquí las medallas de Waffle y Travis.
 
-[![Waffle.io - Columns and their card count](https://waffle.io/vgrana/prevencion-acoso.svg?columns=backlog)](https://waffle.io/vgrana/prevencion-acoso)
+
 
 [![Build Status](https://travis-ci.org/vgrana/prevencion-acoso.svg?branch=master)](https://travis-ci.org/vgrana/prevencion-acoso)
 
@@ -64,7 +64,7 @@ Vaya al siguiente link [Descargar Eclipse](https://www.eclipse.org/downloads/dow
  y haga clic en el boton descargar, el cúal descargará un archivo zip.
 - Descomprima el archivo Zip
 - Entre en la carpeta descomprimida y haga doble clic en archivo eclipse
-- Si quiere tener un acceso directo a Eclipse desde el Escritorio o cualquier lugar vaya [Cree acceso directo] (https://computerhoy.com/paso-a-paso/software/como-crear-accesos-directos-escritorio-ubuntu-46982) 
+- Si quiere tener un acceso directo a Eclipse desde el Escritorio o cualquier lugar vaya [Cree acceso directo](https://computerhoy.com/paso-a-paso/software/como-crear-accesos-directos-escritorio-ubuntu-46982) 
 
 
 ## Crear una base de datos:
@@ -81,7 +81,7 @@ Para crear una base de datos, abra una terminal  ctrl+alt+t
 ## Cargar datos iniciales a la base de datos:
 - Primero debe abrir la base de datos que ha creado, para ello ejecuta el comando:
 	 ```
-	  use prevencionAcoso;
+	  use prevencionAcoso
 	  ```
 		  
 - Vaya a la clase DataGenerator botón derecho RunAs, opción JavaApplication
@@ -103,7 +103,7 @@ Para crear una base de datos, abra una terminal  ctrl+alt+t
 ```
 sudo apt-get install git
 ```
-- Una vez instalado, clone el repositorio que se encuentra en el siguiente [link] (https://github.com/vgrana/prevencion-acoso-callejero)
+- Una vez instalado, clone el repositorio que se encuentra en el siguiente [link](https://github.com/vgrana/prevencion-acoso-callejero)
 
 - Abra Eclipse vaya a File
 - Elija la opción Import Projects from files System or Archive
