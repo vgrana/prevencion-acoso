@@ -1,7 +1,7 @@
 > Incluir aquí las medallas de Waffle y Travis.
 
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/vgrana/prevencion-acoso-callejero.svg?columns=backlog)](https://waffle.io/vgrana/prevencion-acoso-callejero)
-[![Build Status](https://travis-ci.org/vgrana/prevencion-acoso.svg?branch=master)](https://travis-ci.org/vgrana/prevencion-acoso)
+[![Build Status](https://travis-ci.org/vgrana/prevencion-acoso-callejero.svg?branch=master)](https://travis-ci.org/vgrana/prevencion-acoso-callejero)
 
 
 # Prevención acoso
