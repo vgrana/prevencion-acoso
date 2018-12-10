@@ -61,9 +61,9 @@ Vaya al siguiente link [Descargar Eclipse](https://www.eclipse.org/downloads/dow
 - Si quiere tener un acceso directo a Eclipse desde el Escritorio o cualquier lugar vaya [Cree acceso directo](https://computerhoy.com/paso-a-paso/software/como-crear-accesos-directos-escritorio-ubuntu-46982) 
 
 
-## Crear una base de datos:}
+## Crear una base de datos:
 
-Para crear una base de datos, abra una terminal  ctrl+alt+t 
+Para crear una base de datos, abra una terminal o  _ctrl+alt+t_
 - ejecute el siguiente comando para acceder a mysql:
 	```
 	mysql -u root -proot
@@ -81,7 +81,7 @@ Para crear una base de datos, abra una terminal  ctrl+alt+t
 		  
 - Vaya a la clase DataGenerator botón derecho RunAs, opción JavaApplication
 - Si quiere verificar que las tablas se han cargado correctamente ejecute:
-	```
+		```
 	show tables;
 	```
 	si quiere visualizar los datos contenidos en las mismas 
@@ -94,14 +94,13 @@ Para crear una base de datos, abra una terminal  ctrl+alt+t
 ## Importar el proyecto en Eclipse:
 
 - Lo primero que debe hacer es descargar git, para ello ejecute el siguiente comando:
-
 	```
 	sudo apt-get install git
 	```
 - Una vez instalado, clone el repositorio que se encuentra en el siguiente [link](https://github.com/vgrana/prevencion-acoso-callejero)
 
-- Abra Eclipse vaya a File
-- Elija la opción Import Projects from files System or Archive
+- Abra Eclipse vaya a _File_
+- Elija la opción _Import Projects from files System or Archive_
 
 - En la ventana que se despliega vaya al botón Directory y ahí elija la ruta en donde se encuentra el proyecto que desea importar.
 
@@ -121,7 +120,7 @@ Para crear una base de datos, abra una terminal  ctrl+alt+t
 	- si quiere puede en Name escribir un nombre
 	- en el botón WORKSPACE elija sú proyecto
 	- en donde dice Goals: escribima _jetty:run_
-	- por último haga clic en el boton RUN
+	- por último haga clic en el boton  _RUN_
 
 
 - Independientemente de la opción elegida para levantar el proyecto, abra un navegador y escriba `localhost:8080`.
