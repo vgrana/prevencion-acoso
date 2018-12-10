@@ -1,5 +1,3 @@
-> Incluir aquí las medallas de Waffle y Travis.
-
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/vgrana/prevencion-acoso-callejero.svg?columns=backlog)](https://waffle.io/vgrana/prevencion-acoso-callejero)
 [![Build Status](https://travis-ci.com/vgrana/prevencion-acoso-callejero.svg?branch=master)](https://travis-ci.com/vgrana/prevencion-acoso-callejero)
 
@@ -7,7 +5,6 @@
 
 ## Software necesario
 
-Explicar aquí cómo instalar lo siguiente:
 * JDK 1.8
 * Maven
 * MySQL
@@ -15,7 +12,6 @@ Explicar aquí cómo instalar lo siguiente:
 
 ## Configuración del entorno
 
-Explicar aquí cómo hacer lo siguiente:
 * Crear la base de datos.
 * Cargar los datos iniciales.
 * Importar el proyecto en Eclipse.
@@ -59,25 +55,26 @@ Siga los siguientes pasos para instalar Java OpenJDK en ubuntu:
 
 ## Instalar Eclipse:
 Vaya al siguiente link [Descargar Eclipse](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2018-09/R/eclipse-jee-2018-09-linux-gtk-x86_64.tar.gz)
- y haga clic en el boton descargar, el cúal descargará un archivo zip.
+ y haga clic en el botón descargar, el cúal descargará un archivo zip.
 - Descomprima el archivo Zip
 - Entre en la carpeta descomprimida y haga doble clic en archivo eclipse
 - Si quiere tener un acceso directo a Eclipse desde el Escritorio o cualquier lugar vaya [Cree acceso directo](https://computerhoy.com/paso-a-paso/software/como-crear-accesos-directos-escritorio-ubuntu-46982) 
 
 
-## Crear una base de datos:
+## Crear una base de datos:}
+
 Para crear una base de datos, abra una terminal  ctrl+alt+t 
 - ejecute el siguiente comando para acceder a mysql:
 	```
 	mysql -u root -proot
 	```
-- Escriba el siguiente comando:
+- Escriba el siguiente comando para crear la base de datos:
 	```
 	create database prevencionAcoso
 	```
 	
 ## Cargar datos iniciales a la base de datos:
-- Primero debe abrir la base de datos que ha creado, para ello ejecuta el comando:
+- Primero debe abrir la base de datos que ha creado, para ello ejecute el comando:
 	 ```
 	  use prevencionAcoso
 	  ```
@@ -98,9 +95,9 @@ Para crear una base de datos, abra una terminal  ctrl+alt+t
 
 - Lo primero que debe hacer es descargar git, para ello ejecute el siguiente comando:
 
-```
-sudo apt-get install git
-```
+	```
+	sudo apt-get install git
+	```
 - Una vez instalado, clone el repositorio que se encuentra en el siguiente [link](https://github.com/vgrana/prevencion-acoso-callejero)
 
 - Abra Eclipse vaya a File
@@ -110,8 +107,21 @@ sudo apt-get install git
 
 - Por último haga clic en el botón Finish 
 
+## Pasos para levantar un proyecto desde Eclipse o desde consola: 
+
 ### Pasos para levantar el proyecto con Jetty desde desde consola:
 
 - Abra una terminal en la ubicación de su proyecto,luego ejecute el comando `mvn jetty:run`.
 
-- Luego, abra un navegador y escriba `localhost:8080`.
+### Para levantar el proyecto con jetty desde eclipse:
+- elija RUN del menú de eclipse, luego  elija la opción RUN CONFIGURATIONS
+- buscar MAVEN BUILD
+- hacer clic con botón derecho sobre MAVEN BUILD y elegir new
+- en la ventana que se despliega:
+	- si quiere puede en Name escribir un nombre
+	- en el botón WORKSPACE elija sú proyecto
+	- en donde dice Goals: escribima _jetty:run_
+	- por último haga clic en el boton RUN
+
+
+- Independientemente de la opción elegida para levantar el proyecto, abra un navegador y escriba `localhost:8080`.
