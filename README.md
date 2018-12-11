@@ -78,7 +78,7 @@ Para crear una base de datos, abra una terminal o  _ctrl+alt+t_
 - Primero debe abrir la base de datos que ha creado, para ello ejecute el comando:
 	 ```
 	 use prevencionAcoso
-	  ```
+	 ```
 		  
 - Vaya a la clase DataGenerator botón derecho RunAs, opción JavaApplication
 - Si quiere verificar que las tablas se han cargado correctamente ejecute:
