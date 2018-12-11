@@ -1,6 +1,7 @@
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/vgrana/prevencion-acoso-callejero.svg?columns=backlog)](https://waffle.io/vgrana/prevencion-acoso-callejero)
 [![Build Status](https://travis-ci.com/vgrana/prevencion-acoso-callejero.svg?branch=master)](https://travis-ci.com/vgrana/prevencion-acoso-callejero)
 
+
 # Prevención acoso
 
 ## Software necesario
@@ -76,12 +77,12 @@ Para crear una base de datos, abra una terminal o  _ctrl+alt+t_
 ## Cargar datos iniciales a la base de datos:
 - Primero debe abrir la base de datos que ha creado, para ello ejecute el comando:
 	 ```
-	  use prevencionAcoso
+	 use prevencionAcoso
 	  ```
 		  
 - Vaya a la clase DataGenerator botón derecho RunAs, opción JavaApplication
 - Si quiere verificar que las tablas se han cargado correctamente ejecute:
-		```
+	```
 	show tables;
 	```
 	si quiere visualizar los datos contenidos en las mismas 
@@ -102,9 +103,9 @@ Para crear una base de datos, abra una terminal o  _ctrl+alt+t_
 - Abra Eclipse vaya a _File_
 - Elija la opción _Import Projects from files System or Archive_
 
-- En la ventana que se despliega vaya al botón Directory y ahí elija la ruta en donde se encuentra el proyecto que desea importar.
+- En la ventana que se despliega vaya al botón _Directory_ y ahí elija la ruta en donde se encuentra el proyecto que desea importar.
 
-- Por último haga clic en el botón Finish 
+- Por último haga clic en el botón _Finish_ 
 
 ## Pasos para levantar un proyecto desde Eclipse o desde consola: 
 
