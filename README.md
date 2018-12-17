@@ -132,15 +132,15 @@ y mostrará los datos que se encuentren cargados en el DataGenerator.
 
 ### Pasos para levantar un proyecto desde Eclipse o desde consola: 
 
-	### Pasos para levantar el proyecto con Jetty desde desde consola:
+- Pasos para levantar el proyecto con Jetty desde  consola:
 
-- Abra una terminal en la ubicación de su proyecto,luego ejecute el comando `mvn jetty:run`.
+	- Abra una terminal en la ubicación de su proyecto,luego ejecute el comando `mvn jetty:run`.
 
-### Para levantar el proyecto con jetty desde eclipse:
-- elija RUN del menú de eclipse, luego  elija la opción RUN CONFIGURATIONS
-- buscar MAVEN BUILD
-- hacer clic con botón derecho sobre MAVEN BUILD y elegir new
-- en la ventana que se despliega:
+ - Para levantar el proyecto con jetty desde eclipse:
+	- elija RUN del menú de eclipse, luego  elija la opción RUN CONFIGURATIONS
+	- buscar MAVEN BUILD
+	- hacer clic con botón derecho sobre MAVEN BUILD y elegir new
+	- en la ventana que se despliega:
 	- si quiere puede en Name escribir un nombre
 	- en el botón WORKSPACE elija sú proyecto
 	- en donde dice Goals: escribima _jetty:run_
